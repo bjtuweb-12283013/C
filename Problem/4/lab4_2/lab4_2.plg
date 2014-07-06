@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lab4_2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LIUJIA~1\AppData\Local\Temp\RSP7A4D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/lab4_2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp"
+]
+Creating command line "cl.exe @C:\Users\LIUJIA~1\AppData\Local\Temp\RSP7A4D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+CodeForlab4.cpp
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(42) : error C2106: '=' : left operand must be l-value
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(47) : error C2106: '=' : left operand must be l-value
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(71) : error C2082: redefinition of formal parameter 'dStandardWeight'
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(72) : error C2082: redefinition of formal parameter 'dActualWeight'
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(76) : error C2450: switch expression of type 'double' is illegal
+        Integral expression required
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(115) : error C2236: unexpected 'struct' 'CheckInfoStru'
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(118) : error C2664: 'strcpy' : cannot convert parameter 1 from 'double [20]' to 'char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(119) : error C2664: 'strcpy' : cannot convert parameter 1 from 'double [20]' to 'char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\高级语言程序设计\实验\实验0\CodeForLab4\CodeForlab4.cpp(121) : error C2664: 'strcpy' : cannot convert parameter 1 from 'double' to 'char *'
+        There is no context in which this conversion is possible
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+CodeForlab4.obj - 9 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
